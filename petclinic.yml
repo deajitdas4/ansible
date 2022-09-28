@@ -1,0 +1,47 @@
+---
+  - name: petclinic
+    hosts: all
+    become_user: root
+    become_method: sudo
+    become: yes
+    tasks:
+      - name: Install java
+        apt:
+          name: openjdk-11-jre-headless
+          state: present
+          update_cache: yes
+        when: ansible_distribution=="Ubuntu"
+      - name: Copy the artifact to the ubuntu server
+        copy:
+          src: /root/spring-petclinic/target
+          dest: /root/
+          force: no
+          when: ansible_distribution=="Ubuntu"
+      - name: change directory and run jar file
+        shell: cd /root/target; java -jar spring-petclinic-2.7.0-SNAPSHOT.jar & exit
+        when: ansible_distribution=="Ubuntu"
+          #      - name: run jar file
+          #        shell: java -jar spring-petclinic-2.7.0-SNAPSHOT.jar & exit
+          #        when: ansible_distribution=="Ubuntu"
+
+      - name: Install java
+        yum:
+          name: java
+          state: latest
+          update_cache: yes
+        when: ansible_distribution=="RedHat"
+      - name: Copy the artifact to redhat server
+        copy:
+          src: /root/spring-petclinic/target
+          dest: /root/
+          force: no
+          when: ansible_distribution=="RedHat"
+      - name: change directory and run jar file
+        shell: cd /root/target; nohup java -jar spring-petclinic-2.7.0-SNAPSHOT.jar & exit
+        when: ansible_distribution=="RedHat"
+          #      - name: run jar file
+          #        shell: java -jar spring-petclinic-2.7.0-SNAPSHOT.jar & exit
+          #        when: ansible_distribution=="RedHat"
+
+
+
