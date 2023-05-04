@@ -33,6 +33,7 @@
       - name: Copy the artifact to redhat server
         copy:
           src: /root/spring-petclinic/target
+www.google.com
           dest: /root/
           force: no
           when: ansible_distribution=="RedHat"
