@@ -1,3 +1,6 @@
+https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&projectKey=SWF&view=reporting&chart=burndownChart&sprint=10995
+https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&projectKey=SWF&view=reporting&chart=velocityChart
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=12021
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11063&projectKey=ADASDAI
+https://status.swf.i.mercedes-benz.com/d/tjAys4tnk/statusboard?orgId=1&refresh=1m&from=now-30d&to=now
 https://gsep.daimler.com/jira/secure/RapidBoard.jspa?projectKey=FAPTOOLS&rapidView=116634
