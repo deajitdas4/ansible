@@ -2,7 +2,3 @@ https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&pro
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&projectKey=SWF&view=reporting&chart=velocityChart
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=12021
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11063&projectKey=ADASDAI
-https://videowall.swf.i.mercedes-benz.com/sandbox/d/qOOMGZGSz/gen6-sw-kpi-dashboard?orgId=19
-https://videowall.swf.i.mercedes-benz.com/d/rocket-launch-adasdai/idc6?orgId=10
-https://videowall.swf.i.mercedes-benz.com/d/vECU_NEST/vtt-nest?orgId=10&from=1672750725000&to=1678536686000
-https://videowall.swf.i.mercedes-benz.com/d/vECU_NTS/vtt_nts?orgId=10&from=1672750725000&to=1678536686000
