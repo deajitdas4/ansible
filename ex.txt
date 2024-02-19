@@ -1,4 +1,3 @@
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&projectKey=SWF&view=reporting&chart=burndownChart&sprint=10995
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11465&projectKey=SWF&view=reporting&chart=velocityChart
-https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=12021
 https://issue.swf.i.mercedes-benz.com/secure/RapidBoard.jspa?rapidView=11063&projectKey=ADASDAI
